@@ -62,7 +62,7 @@ a {
     color: #E5E7EB;
 }
 
-button {
+.top button {
     border-radius: 8px;
     background-color: #3882F6;
     width: 125px;
@@ -124,11 +124,51 @@ button {
 .quote {
     font-size: 36px;
     font-weight: 100;
+    width: 785px;
 }
 
 .auth {
-    margin-left: auto;
-    padding-right: 200px;
+    align-self: flex-end;
+    padding-right: 15px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.bluecont {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    gap: 300px;
+}
+
+.space button {
+    background-color: #3882F6;
+    width: 150px;
+    padding: 0 16px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    color: #E5E7EB;
+    border: solid #E5E7EB;
+    border-radius: 8px;
+}
+
+.bluetext {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color:#E5E7EB;
+}
+
+.bluetextsm {
+    font-family: Roboto;
+    font-size: 18px;
+    color:#E5E7EB;
 }
