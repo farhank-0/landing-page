@@ -1,2 +1,2 @@
 # landing-page
-first full website
+Created a landing page using the template provided from the odin project.
