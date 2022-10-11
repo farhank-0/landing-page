@@ -172,3 +172,12 @@ a {
     font-size: 18px;
     color:#E5E7EB;
 }
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
